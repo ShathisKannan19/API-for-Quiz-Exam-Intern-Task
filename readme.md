@@ -34,16 +34,16 @@ Before using this application, make sure you have the following prerequisites in
 Populate the QuestionBank table with your questions. You can use SQL INSERT statements to add questions to the table.
 
 ## Requirements
-`requirements.txt`
-blinker==1.6.2
-click==8.1.7
-colorama==0.4.6
-Flask==2.3.2
-itsdangerous==2.1.2
-Jinja2==3.1.2
-MarkupSafe==2.1.3
-psycopg2==2.9.7
-Werkzeug==2.3.7
+In this file `requirements.txt`
+* blinker==1.6.2
+* click==8.1.7
+* colorama==0.4.6
+* Flask==2.3.2
+* itsdangerous==2.1.2
+* Jinja2==3.1.2
+* MarkupSafe==2.1.3
+* psycopg2==2.9.7
+* Werkzeug==2.3.7
 
 ## Running the Application
 1. Clone this repository to your local machine.
