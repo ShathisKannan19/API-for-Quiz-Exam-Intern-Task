@@ -17,7 +17,8 @@ Before using this application, make sure you have the following prerequisites in
 2. Create a new PostgreSQL database for this application:
 
    ```bash
-   createdb random_question_generator```
+   createdb random_question_generator
+   ```
 
 3. Create a table to store your questions. You can use the following SQL script as a reference:
 ```sql
