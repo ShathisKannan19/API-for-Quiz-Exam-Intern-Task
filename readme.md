@@ -82,7 +82,7 @@ Example Request:
 
 ### API Endpoint 2: Generate Questions by Difficulty Levels and Number of Questions
 This API endpoint allows you to generate questions by specifying the number of questions you want for each difficulty level (Easy, Medium, Advanced) and the total number of questions you want.
-* Endpoint: /API2
+* Endpoint: `/API2`
 * HTTP Method: GET
 * Parameters:
     * Easy: The number of Easy difficulty questions you want.
