@@ -82,7 +82,7 @@ def random_question_level():
                 question = cursor.fetchone()
                 question_list.append(question)
                 num_questions -= 1
-                Medium -= 1
+                Advanced -= 1
             elif num_questions > 0:
                 difficulty_level = random.choice(["Easy", "Medium", "Advanced"])
                 max_score = 5 if difficulty_level == "Advanced" else 3 if difficulty_level == "Medium" else 1
